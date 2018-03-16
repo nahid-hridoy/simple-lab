@@ -1,0 +1,295 @@
+
+.cusDD_default {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    
+    text-align: left;
+    text-indent: 20px;
+  }
+  
+  .cusDD_default .cusDD_select {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    z-index: 0;
+  }
+  .cusDD_default .cusDD_arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat;
+    background-position: 50% 50%;
+  }
+  .cusDD_default .cusDD_arrow.active {
+    background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_up.png") no-repeat;
+    background-position: 50% 50%;
+  }
+  
+  .cusDD_default .cusDD_options {
+    background: #fff;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+  }
+  
+  .cusDD_default .cusDD_opt {
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    display: block;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .cusDD_default .cusDD_opt:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  /** Slick Dark style **/
+  
+  .cusDD_slick_d {
+    position: relative;
+    width: 250px;
+    margin: auto;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    
+    text-align: left;
+    text-indent: 20px;
+    color: #000;
+  }
+  
+  .cusDD_slick_d .cusDD_select {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #505050;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    z-index: 0;
+  }
+  .cusDD_slick_d .cusDD_arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    background: url("http://skyscrapercenter.com/img/chevron-down.png") no-repeat;
+    background-size: 60% auto;
+    background-position: 50% 50%;
+  }
+  .cusDD_slick_d .cusDD_arrow.active {
+    background: url("http://skyscrapercenter.com/img/chevron-down.png") no-repeat;
+    background-size: 60% auto;
+    background-position: 50% 50%;
+  }
+  
+  .cusDD_slick_d .cusDD_options {
+    background: rgba(0, 0, 0, 0.4);
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    border-bottom: 1px solid #505050;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+  }
+  
+  .cusDD_slick_d .cusDD_opt {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    display: block;
+    position: relative;
+    transition: 300ms;
+    overflow: hidden;
+  }
+  .cusDD_slick_d .cusDD_opt:before {
+    content: "";
+    z-index: -1;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -320px;
+    height: inherit;
+    width: 300px;
+    transform: skew(-30deg);
+    background: rgba(0, 0, 0, 0.2);
+    border-right: 1px solid #505050;
+    transition: 300ms;
+  }
+  .cusDD_slick_d .cusDD_opt:hover:before {
+    transform: skew(-30deg) translateX(300px);
+  }
+  
+  /** Slick Light Style **/
+  
+  .cusDD_slick_l {
+    position: relative;
+    width: 250px;
+    margin: auto;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    
+    text-align: left;
+    text-indent: 20px;
+    color: #808080;
+  }
+  
+  .cusDD_slick_l .cusDD_select {
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #c0c0c0;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    z-index: 0;
+  }
+  .cusDD_slick_l .cusDD_arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    background: url("http://skyscrapercenter.com/img/chevron-down.png") no-repeat;
+    background-size: 60% auto;
+    background-position: 50% 50%;
+  }
+  .cusDD_slick_l .cusDD_arrow.active {
+    background: url("http://skyscrapercenter.com/img/chevron-down.png") no-repeat;
+    background-size: 60% auto;
+    background-position: 50% 50%;
+  }
+  
+  .cusDD_slick_l .cusDD_options {
+    background: rgba(255, 255, 255, 0.4);
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+  }
+  
+  .cusDD_slick_l .cusDD_opt {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    display: block;
+    position: relative;
+    transition: 300ms;
+    overflow: hidden;
+  }
+  .cusDD_slick_l .cusDD_opt:before {
+    content: "";
+    z-index: -1;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -320px;
+    height: inherit;
+    width: 300px;
+    transform: skew(-30deg);
+    background: rgba(255, 255, 255, 0.6);
+    transition: 300ms;
+  }
+  .cusDD_slick_l .cusDD_opt:hover:before {
+    transform: skew(-30deg) translateX(300px);
+  }
+  
+  /** custom style **/
+  
+  .custom {
+    position: relative;
+    width: 250px;
+    margin: auto;
+    
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    cursor: pointer;
+    
+    text-align: left;
+    text-indent: 20px;
+    color: #000;
+  }
+  
+  .custom .cusDD_select {
+    background: url("http://data2.whicdn.com/images/58750873/original.jpg");
+    background-size: 100% auto;
+    background-position: 0 18px;
+    border: 1px solid lavenderblush;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+  }
+  .custom .cusDD_arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    background: url("http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-black-icons-animals/012581-glossy-black-icon-animals-animal-cat4.png") no-repeat;
+    background-size: 100% auto;
+    background-position: 50% 50%;
+  }
+  .custom .cusDD_arrow.active {
+    background: url("http://static.wixstatic.com/media/667dde_b92ab26894531abe1973a0b39fa239cf.png") no-repeat;
+    background-size: 60% auto;
+    background-position: 50% 50%;
+  }
+  
+  .custom .cusDD_options {
+    background: url("https://40.media.tumblr.com/218dac0087fa6edfa81e31caf7a364d6/tumblr_mjortge3Mi1rgpyeqo1_500.png") #fff no-repeat;
+    background-size: 100% auto;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+    border-radius: 10px;
+  }
+  
+  .custom .cusDD_opt {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    display: block;
+    position: relative;
+    transition: 300ms;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .custom .cusDD_opt:hover {
+    border-radius: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
